@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
+body{
+    background: url(./img/dims-3-79.jpg) no-repeat;
+    background-position: center;
+}
+h1{
+    font-family: 'Oswald', sans-serif; 
+    font-size: 60px; 
+}
+h2{
+    font-family: 'Kolker Brush', cursive;
+    font-size: 40px;
+}
+.background{
+    height: 100%;
+    padding: 20px;
+}
+.block1{
+    width: 400px;
+    height: 240px;
+    background-color: rgba(0, 0, 0, 0.256);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.block1:hover{
+    width: 440px;
+    height: 260px;
+    transition: 1s;
+}
+.block1 p{
+    width: 380px;
+    height: 220px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.block1 p:hover{
+    color: white;
+    width: 420px;
+    height: 240px;
+    font-size: 22px;
+    transition: 1s;
+}
+
+.block_tog{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.block2{
+    width: 220px;
+    height: 120px;
+    background-color: rgba(74, 74, 74, 0.432);
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    cursor: pointer;
+}
+.block2:hover{
+    width: 240px;
+    height: 130px;
+    transition: 1s;
+}
+span{
+    font-family: 'Poor Story', cursive;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.block2 p{
+    font-size: 15px;
+    font-family: 'Zen Antique', serif;
+}
+.block2:hover p{
+    color: white;
+    transition: 1s;
+}
+.block2:hover span{
+    color: black;
+    transition: 1s;
+}
+
+.block_img{
+    width: 700px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgba(46, 46, 46, 0.573);
+}
+.block_img:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+.block_img img{
+    width: 300px;
+}
